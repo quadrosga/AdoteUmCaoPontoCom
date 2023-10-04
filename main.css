@@ -3,11 +3,15 @@
     padding: 18px 
 }
 
+.sobre {
+    margin-top: 120px;
+}
+
 h1, h4 {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+header, footer {
     background-color:mediumpurple;
     padding: 8px 6px;
 }
@@ -20,6 +24,11 @@ header h1 {
     color: white;
 }
 
+
+.navbar .nav-link:focus {
+    color: #ffc107;
+}
+
 .dropdown-menu {
     max-width: 100%;
 }
@@ -30,9 +39,14 @@ ul li a {
     color: mediumpurple;
 }
 
+.dropdown-item:active {
+    background-color: rgba(147, 112, 216, 0.541);
+}
+
 h4 {
     color: mediumpurple;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .sobre-texto p {
@@ -68,4 +82,8 @@ h4 {
 .card a:hover {
     background-color: mediumpurple;
     border-color: blueviolet;
+}
+
+.accordion {
+    margin-top: 8px;
 }

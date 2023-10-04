@@ -11,11 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="navbar">
+    <header class="fixed-top">
+        <div class="navbar navbar-expand-lg">
             <h1>Adote um cão ponto com</h1>
-            <nav>
-                <ul class="nav">
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Institucional</a>
                     <ul class="dropdown-menu">
@@ -34,16 +38,16 @@
                         <a class="nav-link" href="#">ONGs</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">FAQ</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#faq">FAQ</a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-item">
-                                <a href="#">Devo adotar um animal?</a>
+                                <a href="#faq">Devo adotar um animal?</a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="#">Quais cuidados devo ter com o pet?</a>
+                                <a href="#faq">Quais cuidados devo ter com o pet?</a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="#">Dicas para tutores novos</a>
+                                <a href="#faq">Dicas para novos tutores</a>
                             </li>
                         </ul>
                     </li>
@@ -54,7 +58,7 @@
             </nav>
         </div>
     </header>
-    <div class="container">
+    <div class="container" id="container1">
         <div class="row sobre" id="sobre">
             <div class="col-lg-6 col-md-6 col-sm-1 sobre-texto">
                 <h4>Sobre</h4>
@@ -86,8 +90,8 @@
                         </div>
                         <img src="./media/bulldog-1047518_640.jpg" alt="imagem de um filhote de bulldog">
                         <div class="card-body">
-                            <div class="card-title">título</div>
-                            <div class="card-text">texto do card
+                            <div class="card-title">Charlie</div>
+                            <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio sunt corrupti laudantium facilis ea assumenda odit eveniet est commodi molestiae mollitia, iste nesciunt quam dolore dolor id, maiores modi nisi.
                                 <p>
                                     <a href="#" class="btn btn-success">Adotar</a>
                                 </p>
@@ -102,8 +106,8 @@
                         </div>
                         <img src="./media/puppy-1207816_640.jpg" alt="imagem de um filhote de labrador">
                         <div class="card-body">
-                            <div class="card-title">título</div>
-                            <div class="card-text">texto do card
+                            <div class="card-title">Loki</div>
+                            <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia unde commodi, aperiam facilis et nesciunt ab impedit dolorem veritatis sapiente voluptates, delectus sunt possimus magnam mollitia maiores, repellat veniam est.
                                 <p>
                                     <a href="#" class="btn btn-success">Adotar</a>
                                 </p>
@@ -118,8 +122,8 @@
                         </div>
                         <img src="./media/english-bulldog-5422018_640.jpg" alt="imagem de um filhote de english bulldog">
                         <div class="card-body">
-                            <div class="card-title">título</div>
-                            <div class="card-text">texto do card
+                            <div class="card-title">Luna</div>
+                            <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, autem voluptate sint explicabo adipisci quo minima voluptatibus nulla molestiae? Quos incidunt recusandae nam fugit pariatur nostrum doloribus molestiae eaque iure.
                                 <p>
                                     <a href="#" class="btn btn-success">Adotar</a>
                                 </p>
@@ -134,8 +138,8 @@
                         </div>
                         <img src="./media/puppy-1903313_640.jpg" alt="imagem de um filhote branco">
                         <div class="card-body">
-                            <div class="card-title">título</div>
-                            <div class="card-text">texto do card
+                            <div class="card-title">Rocky</div>
+                            <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam reiciendis nisi atque accusantium consectetur debitis quo magni asperiores quidem, aliquam provident in magnam expedita eaque cum exercitationem sint tempore!
                                 <p>
                                     <a href="#" class="btn btn-success">Adotar</a>
                                 </p>
@@ -150,8 +154,8 @@
                         </div>
                         <img src="./media/pet-1284307_640.jpg" alt="imagem de um filhote marrom">
                         <div class="card-body">
-                            <div class="card-title">título</div>
-                            <div class="card-text">texto do card
+                            <div class="card-title">Peppa</div>
+                            <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet impedit eaque error, autem cumque quibusdam fuga natus voluptatem magni rerum minus molestias sed aut harum placeat. Officiis, odio quam!
                                 <p>
                                     <a href="#" class="btn btn-success">Adotar</a>
                                 </p>
@@ -166,8 +170,8 @@
                         </div>
                         <img src="./media/puppy-4234435_640.jpg" alt="imagem de um filhote de poodle">
                         <div class="card-body">
-                            <div class="card-title">título</div>
-                            <div class="card-text">texto do card
+                            <div class="card-title">Mina</div>
+                            <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus mollitia consequuntur temporibus, voluptatum cupiditate aliquam, nihil, eos maiores deserunt dolor similique libero odio sint atque facere vitae at earum et.
                                 <p>
                                     <a href="#" class="btn btn-success">Adotar</a>
                                 </p>
@@ -267,7 +271,57 @@
                     </div>
         </div>
     </div>
-</body>
+    <div class="container" id="faq">
+        <h4>FAQ</h4>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                        Devo adotar um animal?
+                    </button>
+                </div>
+                <div class="accordion-collapse collapse" id="resposta1">
+                    <div class="accordion-body">
+                        Resposta
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">
+                        Quais cuidados devo ter com o pet?
+                    </button>
+                </div>
+                <div class="accordion-collapse collapse" id="resposta2">
+                    <div class="accordion-body">
+                        Resposta
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta3">
+                        Dicas para novos tutores.
+                    </button>
+                </div>
+                <div class="accordion-collapse collapse" id="resposta3">
+                    <div class="accordion-body">
+                        Resposta
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <div>
+        <footer class="footer">&copy 2013-2023 Adote um Cão Ponto com - Todos os diretos reservados.</footer>
+    </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="./cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+</body>
 </html>
